@@ -15,3 +15,11 @@
     width: 100%;
     border-bottom: 1px solid #b7e7fe;
 }
+
+.nav {
+    width: 80%;
+    margin: 20px auto 0;
+    display: flex;
+    text-align: center;
+    position: sticky;
+}
