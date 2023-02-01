@@ -16,11 +16,19 @@
     border-bottom: 1px solid #b7e7fe;
 }
 
-.nav {
+nav {
     width: 80%;
     margin: 20px auto 0;
     display: flex;
     text-align: center;
     position: sticky;
     z-index: 2;
+}
+
+.logo {
+    flex-basis: 15%;
+}
+
+.logo img {
+    width: 100px;
 }
