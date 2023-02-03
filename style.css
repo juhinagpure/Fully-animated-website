@@ -62,3 +62,6 @@ nav {
 .nav-link ul li:hover::after {
     background: #fff;
 }
+.active::after{
+background: #fff !important
+}
