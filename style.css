@@ -81,3 +81,26 @@ background: #fff !important
    text-align: center;
    z-index: 2;
 }
+.social-icons img{
+    width: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+.search-box{
+    margin-top: 20px;
+    border: 1px solid #b7e7f6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgb(255,255,255,.2),rgba(255,255,255,0));
+}
+.search-box input{
+   width: 100%;
+   padding: 7px 15px;
+   border-radius: 30px; 
+   border: 0;
+   outline: none;
+   background: transparent;
+   color: #b7e7f6;
+}
