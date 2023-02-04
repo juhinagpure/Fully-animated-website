@@ -129,3 +129,10 @@ nav {
     left: 0;
     top: 100px;
 }
+#airplane{
+   width: 200px; 
+   position: absolute;
+   top: 180px;
+   left: 250px;
+   z-index: 2;
+}
