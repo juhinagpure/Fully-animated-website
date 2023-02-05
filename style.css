@@ -136,3 +136,18 @@ nav {
    left: 250px;
    z-index: 2;
 }
+#hotairballoon{
+  height: 400px;
+  width: 400px;
+  position: absolute;  
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.balloon1{
+    width: 150px;
+    opacity: 0.4;
+}
+.balloon1{
+
+}
