@@ -169,7 +169,7 @@ nav {
         left: 250px;
     }
     100%{
-        left: 110%;
+        left: 110px;
     }
 }
 
@@ -178,9 +178,26 @@ nav {
     height: 400px;
     width: 700px;
     position: absolute;
-    bottom: 100px;
+    bottom: -450px;
     left: 50%;
     transform: translateX(-50%);
+    animation: hotairballoon 5s linear infinite;
+}
+@keyframes hotairballoon {
+    0% {
+        left: -450px;
+    }
+
+    20% {
+        left: 100px;
+    }
+
+    80% {
+        left: 100px;
+    }
+    100%{
+        left: -450px;
+    }
 }
 
 .balloon1 {
