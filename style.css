@@ -127,7 +127,25 @@ nav {
     width: 10%;
     position: absolute;
     left: 0;
-    top: 100px;
+    top: -100px;
+    animation: clouds 5s linear infinite;
+}
+
+@keyframes clouds {
+    0% {
+        top: -100;
+    }
+
+    20% {
+        top: 100px;
+    }
+
+    80% {
+        top: 100px;
+    }
+    100%{
+        top: -100px;
+    }
 }
 
 #airplane {
@@ -160,12 +178,13 @@ nav {
     width: 180px;
     opacity: 0.5;
 }
-#myImg{
+
+#myImg {
     width: 70px;
     height: 70px;
     position: absolute;
     bottom: 30px;
     left: 50%;
-    transform:translateX(-50%) ;
+    transform: translateX(-50%);
     cursor: pointer;
 }
