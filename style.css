@@ -123,8 +123,8 @@ nav {
     margin: 5px 10px;
 }
 
-#clouds {
-    width: 10%;
+#clouds{
+    width: 100%;
     position: absolute;
     left: 0;
     top: -100px;
@@ -133,7 +133,7 @@ nav {
 
 @keyframes clouds {
     0% {
-        top: -100;
+        top: -100px;
     }
 
     20% {
