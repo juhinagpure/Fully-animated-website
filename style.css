@@ -128,10 +128,10 @@ nav {
     position: absolute;
     left: 0;
     top: -100px;
-    animation: clouds 5s linear infinite;
+    animation: clouds 5s linear infinite ;
 }
 
-@keyframes clouds {
+/* @keyframes clouds {
     0% {
         top: -100px;
     }
@@ -146,7 +146,7 @@ nav {
     100%{
         top: -100px ;
     }
-}
+} */
 
 #airplane {
     width: 200px;
@@ -185,18 +185,18 @@ nav {
 }
 @keyframes hotairballoon {
     0% {
-        left: -450px;
+        bottom: -450px;
     }
 
     20% {
-        left: 100px;
+        bottom: 100px;
     }
 
     80% {
-        left: 100px;
+        bottom: 100px;
     }
     100%{
-        left: -450px;
+        bottom: -450px;
     }
 }
 
