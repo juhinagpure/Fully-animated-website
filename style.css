@@ -123,15 +123,15 @@ nav {
     margin: 5px 10px;
 }
 
-#clouds{
+#clouds {
     width: 100%;
     position: absolute;
     left: 0;
     top: -100px;
-    animation: clouds 5s linear infinite ;
+    animation: clouds 5s linear infinite;
 }
 
-/* @keyframes clouds {
+@keyframes clouds {
     0% {
         top: -100px;
     }
@@ -143,10 +143,11 @@ nav {
     80% {
         top: 100px;
     }
-    100%{
-        top: -100px ;
+
+    100% {
+        top: -100px;
     }
-} */
+}
 
 #airplane {
     width: 200px;
@@ -154,8 +155,9 @@ nav {
     top: 180px;
     left: -250px;
     z-index: 2;
-    animation: fly 5s linear infinite ;
+    animation: fly 5s linear infinite;
 }
+
 @keyframes fly {
     0% {
         left: -250px;
@@ -168,8 +170,9 @@ nav {
     80% {
         left: 250px;
     }
-    100%{
-        left: 110px;
+
+    100% {
+        left: 110%;
     }
 }
 
@@ -183,6 +186,7 @@ nav {
     transform: translateX(-50%);
     animation: hotairballoon 5s linear infinite;
 }
+
 @keyframes hotairballoon {
     0% {
         bottom: -450px;
@@ -195,7 +199,8 @@ nav {
     80% {
         bottom: 100px;
     }
-    100%{
+
+    100% {
         bottom: -450px;
     }
 }
